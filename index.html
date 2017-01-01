@@ -9,13 +9,13 @@
 
     <title>A tribute page of Socrates</title>
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
+    <!-- JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Fonts -->
@@ -31,51 +31,71 @@
 
 <body>
 
-    <!-- Main container start -->
-    <div class="container-fluid">
-
-        <!-- Navigation bar start -->
-        <nav class="navbar navbar-default">
-
-        </nav>
-        <!-- Navigation bar end -->
-
-        <!-- Introduction start -->
-        <div class="row">
-
-            <h1>A Tribute Page of Socrates</h1>
-
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#band">WHO</a></li>
+                    <li><a href="#contact">ABOUT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
+    <!-- Navigation bar end -->
 
+    <!-- Main container -->
+    <div class="container-fluid bg-1 text-center">
+
+        <!--Introduction-->
         <div>
+            <div id="intro">
+                <h1>A tribute page to Socrates</h1>
 
-            <img src="/img/File-Socrates_Louvre.jpg" alt="socrates was a bro" id="img-profile" />
+                <p>Socrates was a good dude</p>
+                <p>In fact, he was an <em>awesome</em> dude</p>
+            </div>
 
-            <p><b>Socrates</b> was a classical Greek (Athenian) philosopher credited as one of the founders of Western philosophy. He is an enigmatic figure known chiefly through the accounts of classical writers, especially the writings of his students Plato and Xenophon and the plays of his contemporary Aristophanes. Plato's dialogues are among the most comprehensive accounts of Socrates to survive from antiquity, though it is unclear the degree to which Socrates himself is "hidden behind his 'best disciple', Plato".</p>
-
-            <ul>
-                <li>Philosopher</li>
-            </ul>
+            <div id="profile">
+                <p><strong>Meet the boss</strong></p>
+                <br>
+                <img class="img-circle img-profile" src="img/Socrates_Louvre.jpg" alt="he was handsome too!" />
+            </div>
 
         </div>
-        <!-- Introduction end -->
+        <!--Introduction end-->
 
-        <!-- Content start -->
         <div class="row">
 
-            <p>Stuff he did</p>
+            <!-- About -->
+            <div class="container-fluid">
+                <h3 class="text-center">About</h3>
+                <p class="text-center"><em>Created by </em></p>
+                <p><span class="glyphicon glyphicon-map-marker"> México</span></p>
+                <p><span class="glyphicon glyphicon-envelope"> FreeCodeCamp: <a href="https://www.freecodecamp.com/remusa">remusa</a></span></p>
+            </div>
+            <!-- About end -->
 
         </div>
-        <!-- Content end -->
-
-        <!-- Footer start -->
-        <div class="footer">
-
-        </div>
-        <!-- Footer end -->
-
-
-
     </div>
     <!-- Main container end -->
 
