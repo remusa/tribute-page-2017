@@ -1,181 +1,160 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<title>A tribute page of Socrates</title>
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<!-- JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-	<!--&lt;!&ndash; CSS &ndash;&gt;-->
-	<!--<link rel="stylesheet" type="text/css" href="/css/styles.css">-->
-
-	<style>
-		h1 {
-			text-align: center;
-		}
-
-		body {
-			background-color: #9d9d9d;
-			font-family: 'Raleway', sans-serif;
-		}
-
-		.container-fluid {
-			padding: 80px 120px;
-		}
-
-		p {
-			font-family: 'Raleway', sans-serif;
-			font-size: 16px;
-		}
-
-		.img {
-			height: 50%;
-			width: 50%;
-		}
-
-		.img-profile {
-			border: 2px solid;
-			border-color: black;
-			width: 20%;
-			margin-bottom: 20px;
-		}
-		/*.img-profile:hover {
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>A tribute page of Socrates</title>
+    <!-- FCC -->
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js" type="text/javascript"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--&lt;!&ndash; CSS &ndash;&gt;-->
+    <!--<link rel="stylesheet" type="text/css" href="/css/styles.css">-->
+    <style>
+    h1 {
+        text-align: center;
+    }
+    
+    body {
+        background-color: #9d9d9d;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .container-fluid {
+        padding: 80px 120px;
+    }
+    
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    
+    .img {
+        height: 50%;
+        width: 50%;
+    }
+    
+    .img-profile {
+        border: 2px solid;
+        border-color: black;
+        width: 20%;
+        margin-bottom: 20px;
+    }
+    /*.img-profile:hover {
             border-color: #f1f1f1;
         }*/
-
-		.navbar {
-			margin-bottom: 0;
-			background-color: #2d2d30;
-			border: 0;
-			font-size: 11px !important;
-			letter-spacing: 4px;
-			opacity: 0.9;
-		}
-
-		#who {
-			font-size: 16px;
-			border: 1px black solid;
-			border-radius: 2px;
-			margin: 10px;
-			padding: 10px 20px 10px 20px;
-		}
-
-		#about {
-			font-family: 'Raleway', sans-serif;
-			border: 1px black solid;
-			border-radius: 3px;
-			margin: 10px;
-			padding: 10px 20px 10px 20px;
-		}
-
-	</style>
-
+    
+    .navbar {
+        margin-bottom: 0;
+        background-color: #2d2d30;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity: 0.9;
+    }
+    
+    #who {
+        font-size: 16px;
+        border: 1px black solid;
+        border-radius: 2px;
+        margin: 10px;
+        padding: 10px 20px 10px 20px;
+    }
+    
+    #about {
+        font-family: 'Raleway', sans-serif;
+        border: 1px black solid;
+        border-radius: 3px;
+        margin: 10px;
+        padding: 10px 20px 10px 20px;
+    }
+    </style>
 </head>
 
 <body>
-
-	<!-- Navigation bar -->
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-				</button>
-				<!--<a class="navbar-brand" href="#">Home</a>-->
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="#who">WHO</a></li>
-					<li><a href="#about">ABOUT</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- Navigation bar end -->
-
-	<!-- Main container -->
-	<div class="container bg-1 text-center">
-
-		<!--Introduction-->
-		<div class="container" id="who">
-			<div id="intro">
-				<h1>A tribute page to Socrates</h1>
-
-				<p>Socrates was a good dude</p>
-				<p>In fact, he was an <em>awesome</em> dude</p>
-			</div>
-
-			<div id="profile">
-				<p><strong>Meet the boss</strong></p>
-				<br>
-				<img class="img-circle img-profile" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg" alt="he was handsome too!" />
-			</div>
-
-			<div class="text-left" id="bio">
-				<p>Socrates was born circa 470 BC, in Athens, Greece. We know of his life through the writings of his students, including Plato and Xenophon. His "Socratic method," laid the groundwork for Western systems of logic and philosophy. When the political climate of Greece turned, Socrates was sentenced to death by hemlock poisoning in 399 BC. He accepted this judgment rather than fleeing into exile.</p>
-
-				<h3>Quick Facts</h3>
-				<ul>
-					<li>NAME: Socrates</li>
-					<li>OCCUPATION: Philosopher</li>
-					<li>BIRTH DATE: c. 470 BCE</li>
-					<li>DEATH DATE: c. 399 BCE</li>
-					<li>PLACE OF BIRTH: Athens, Greece</li>
-					<li>PLACE OF DEATH: Athens, Greece</li>
-				</ul>
-
-				<h3>Interesting facts:</h3>
-				<ol>
-					<li>It was around 470 BC when Socrates was born in Athens, Greece.</li>
-					<li>Socrates’ father was Sophroniscus, a sculptor and stone mason from Athens and his mother was a midwife by the name of Phaenarete.</li>
-					<li>He received basic Greek education because he did not belong to a noble family and hence, he learned the skills of his father at a very early age.</li>
-					<li>Before turning a philosopher, Socrates took up masonry and sculpting as his profession for several years.</li>
-					<li>According to the records of his students named Aristophanes and Xenophon, Socrates used to take money for teaching and that was his only source of income that helped Socrates to sustain a livelihood.</li>
-					<li>Contrary to the records of Aristophanes and Xenophon, Plato, one of the most popular disciples of Socrates said in his records that Socrates simply denied receiving any payments for tutoring his students and hence, lively a very lowly and poor lifestyle.</li>
-					<li>Xanthippe was Socrates’ wife. The two had three children by the names Menexenus, Sophroniscus and Lamprocles.</li>
-					<li>According to Socrates’ disciple Xenophon, Xanthippe was not happy with the ‘philosopher’ profession of Socrates and complained that he did not support his own family.</li>
-					<li>According to Xenophon, Socrates was far more interested in intellectual upbringing of young minds of Athens rather than looking after the upbringing of his own sons.</li>
-					<li>According to Plato’s records, Socrates served citizen soldier in battles of Potidaea, Amphipolis and Delium during the Peloponnesian War. Plato’s records state than Socrates served as a hoplite (armored infantry) as per Athenian law and was absolutely fearless and courageous in battlefield.</li>
-				</ol>
-
-				<p style="font-size: 20px">Learn more about Socrates at <a href="https://en.wikipedia.org/wiki/Socrates">Wikipedia</a></p>
-			</div>
-
-		</div>
-		<!--Introduction end-->
-
-		<div class="row" id="about">
-			<!-- About -->
-			<div class="container">
-				<h3 class="text-center">About</h3>
-				<p class="text-center"><em>Created by <strong>R Sánchez</strong></em></p>
-				<p><span class="glyphicon glyphicon-envelope"> FreeCodeCamp: <a href="https://www.freecodecamp.com/remusa">remusa</a></span></p>
-				<p><span class="glyphicon glyphicon-map-marker"> Location: México</span></p>
-			</div>
-			<!-- About end -->
-
-		</div>
-	</div>
-	<!-- Main container end -->
-
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="#">Home</a>-->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#who">WHO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation bar end -->
+    <!-- Main container -->
+    <div class="container bg-1 text-center">
+        <!--Introduction-->
+        <div class="container" id="who">
+            <div id="intro">
+                <h1>A tribute page to Socrates</h1>
+                <p>Socrates was a good dude</p>
+                <p>In fact, he was an <em>awesome</em> dude</p>
+            </div>
+            <div id="profile">
+                <p><strong>Meet the boss</strong></p>
+                <br>
+                <img class="img-circle img-profile" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg" alt="he was handsome too!" />
+            </div>
+            <div class="text-left" id="bio">
+                <p>Socrates was born circa 470 BC, in Athens, Greece. We know of his life through the writings of his students, including Plato and Xenophon. His "Socratic method," laid the groundwork for Western systems of logic and philosophy. When the political climate of Greece turned, Socrates was sentenced to death by hemlock poisoning in 399 BC. He accepted this judgment rather than fleeing into exile.</p>
+                <h3>Quick Facts</h3>
+                <ul>
+                    <li>NAME: Socrates</li>
+                    <li>OCCUPATION: Philosopher</li>
+                    <li>BIRTH DATE: c. 470 BCE</li>
+                    <li>DEATH DATE: c. 399 BCE</li>
+                    <li>PLACE OF BIRTH: Athens, Greece</li>
+                    <li>PLACE OF DEATH: Athens, Greece</li>
+                </ul>
+                <h3>Interesting facts:</h3>
+                <ol>
+                    <li>It was around 470 BC when Socrates was born in Athens, Greece.</li>
+                    <li>Socrates’ father was Sophroniscus, a sculptor and stone mason from Athens and his mother was a midwife by the name of Phaenarete.</li>
+                    <li>He received basic Greek education because he did not belong to a noble family and hence, he learned the skills of his father at a very early age.</li>
+                    <li>Before turning a philosopher, Socrates took up masonry and sculpting as his profession for several years.</li>
+                    <li>According to the records of his students named Aristophanes and Xenophon, Socrates used to take money for teaching and that was his only source of income that helped Socrates to sustain a livelihood.</li>
+                    <li>Contrary to the records of Aristophanes and Xenophon, Plato, one of the most popular disciples of Socrates said in his records that Socrates simply denied receiving any payments for tutoring his students and hence, lively a very lowly and poor lifestyle.</li>
+                    <li>Xanthippe was Socrates’ wife. The two had three children by the names Menexenus, Sophroniscus and Lamprocles.</li>
+                    <li>According to Socrates’ disciple Xenophon, Xanthippe was not happy with the ‘philosopher’ profession of Socrates and complained that he did not support his own family.</li>
+                    <li>According to Xenophon, Socrates was far more interested in intellectual upbringing of young minds of Athens rather than looking after the upbringing of his own sons.</li>
+                    <li>According to Plato’s records, Socrates served citizen soldier in battles of Potidaea, Amphipolis and Delium during the Peloponnesian War. Plato’s records state than Socrates served as a hoplite (armored infantry) as per Athenian law and was absolutely fearless and courageous in battlefield.</li>
+                </ol>
+                <p style="font-size: 20px">Learn more about Socrates at <a href="https://en.wikipedia.org/wiki/Socrates">Wikipedia</a></p>
+            </div>
+        </div>
+        <!--Introduction end-->
+        <div class="row" id="about">
+            <!-- About -->
+            <div class="container">
+                <h3 class="text-center">About</h3>
+                <p class="text-center"><em>Created by <strong>R Sánchez</strong></em></p>
+                <p><span class="glyphicon glyphicon-envelope"> FreeCodeCamp: <a href="https://www.freecodecamp.com/remusa">remusa</a></span></p>
+                <p><span class="glyphicon glyphicon-map-marker"> Location: México</span></p>
+            </div>
+            <!-- About end -->
+        </div>
+    </div>
+    <!-- Main container end -->
 </body>
 
 </html>
